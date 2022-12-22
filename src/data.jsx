@@ -21,3 +21,56 @@ export const sliderItems =[
         bg:"f5fafd",
     },
 ]
+
+export const categories = [
+    {
+        id : 1,
+        img:"https://img.freepik.com/free-photo/attraclive-woman-keeping-one-hand-her-belt-other-her-face_132075-14008.jpg?w=360&t=st=1671694716~exp=1671695316~hmac=c4c0608bc88263375ce67c2b8e28e7079484e7add70a8c25d06ccc0dfdeb2d82",
+        title: "SHIRT STYLE",
+    },
+    {
+        id : 2,
+        img:"https://img.freepik.com/free-photo/portrait-young-beautiful-woman-with-red-dress_23-2149553619.jpg?w=996&t=st=1671694676~exp=1671695276~hmac=9b4126b0c37f9a7c23e06cdf5b1a30eca6551809c513199718f17362478b32d6",
+        title: "LOUNGEWEAR LOVE",
+    },
+    {
+        id : 3,
+        img:"https://img.freepik.com/free-photo/graceful-european-woman-winter-fur-coat-stylish-dress-sitting-wearing-ankle-boot-black-leather_273443-4012.jpg?w=996&t=st=1671694644~exp=1671695244~hmac=39726a889164925c90909466d14470865a6b61da404b98fe4077cadda0fd2526",
+        title: "LIGHT JACKETS",
+    }
+]
+
+export const popularProducts = [
+    {
+        id:1,
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw6ggg0ijDpEs7waWkRSlUdlAhmkcU5vJKiQ&usqp=CAU"
+    },
+    {
+        id:2,
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQju-lMdzFuT5Br6R-1KHfk10B5kaIGxCVfXsqEyDPA4tKBLhqsRfm6pKq4ouNUbpujoeQ&usqp=CAU"
+    },
+    {
+        id:3,
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL824klIailrPwp15vMjPfk2KMwxIKimES8wFO8porAxdEfzWA-1W9ug-JRGPF_4En6-g&usqp=CAU"
+    },
+    {
+        id:4,
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK_PhTWQYS9X30PJGP25JY3xbz-wcdkHbU-Q&usqp=CAU"
+    },
+    {
+        id:5,
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTEH72kKFHN-bm_ykqEwPCAoWvZmpC543VQQ&usqp=CAU"
+    },
+    {
+        id:6,
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwzqNvTvEpD1DIMtSQrF0RmP5IyVOEzlFMww&usqp=CAU"
+    },
+    {
+        id:7,
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsMUx1JFdRBrxu0M6nM89izNqSV0PA5xS5Pw&usqp=CAU"
+    },
+    {
+        id:8,
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdIwNbhooQPtfmp6_lJQy9tcQkg-p7GWJBUA&usqp=CAU"
+    },
+]
