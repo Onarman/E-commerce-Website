@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { mobile } from '../responsive'
 
 const Login = () => {
     const Container = styled.div`
@@ -20,6 +21,7 @@ const Login = () => {
     padding: 20px;
     background-color: white;
     border-radius: 20px;
+    ${mobile({width:"75%"})}
     `
     const Title = styled.h1`
     font-size: 24px;

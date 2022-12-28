@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import Newsletter from '../components/Newsletter'
 import Products from '../components/Products'
+import { mobile } from '../responsive'
 
 const ProductList = () => {
 
@@ -18,6 +19,7 @@ const ProductList = () => {
     `
     const Filter = styled.div`
     margin: 20px;
+    ${mobile({width:"0px 20px",display:"flex",flexDirection:"column"})}
     `
     const FilterText = styled.span`
     font-size: 20px;
@@ -30,6 +32,7 @@ const ProductList = () => {
     font-weight: 600;
     margin-right: 20px;
     border-radius: 10px;
+    ${mobile({margin:"5px"})}
     `
     const Option = styled.option``
 
